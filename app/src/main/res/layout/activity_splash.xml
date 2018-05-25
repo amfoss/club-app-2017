@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent" >
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:id="@+id/lin_lay"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/splash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/amfoss"
+            app:civ_border_width="2dp"
+            android:contentDescription="@string/appicon"
+            app:civ_border_color="#091884"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textColor="#fce9eaf5"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Android Team" />
+
+</RelativeLayout>

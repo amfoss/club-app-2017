@@ -3,9 +3,12 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
+    lintOptions {
+        abortOnError false
+    }
     defaultConfig {
         applicationId "in.ac.amrita.fossatamrita"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
